@@ -3,9 +3,10 @@ const capitalise = (input) => {
   if (input === "") {
     return "";
   } else {
-    newArray.push(input[0].toUpperCase());
-    newArray.push(input.split(1).toLowerCase());
-    return newArray;
+    // newArray.push(input[0].toUpperCase());
+    // newArray.push(input.split(1).toLowerCase());
+    // return newArray;
+    return `${input[0].toUpperCase()}${input.slice(1).toLowerCase()}`;
   }
 };
 
