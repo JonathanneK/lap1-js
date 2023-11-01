@@ -18,7 +18,7 @@ const swapcase = (input) => {
 
 // Do not delete the code below 🙏
 
-swapcase("JournAl");
+swapcase("jOURNaL");
 
 module.exports = {
   swapcase,
